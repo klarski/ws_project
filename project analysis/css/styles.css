@@ -24,10 +24,33 @@ h2 {
 	text-align: center;	
 	padding: 0 auto;
 }
+h3 {
+	font-family: 'Abel', sans-serif;
+	font-weight: normal 400;
+	font-size: 18px;
+}
 
 p, a {
 	font-family: 'Abel', sans-serif;
 	font-weight: normal 400;
 	font-size: 14px;
+}
+
+#main_content a{
 	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+}
+
+#main_content a:hover {
+	color: #fff;
+}
+#main_content h2, h3{
+	text-align: left;
+}
+
+#home a {
+	text-align: center;
+	font-size: 28px;
+	color: blue;
 }
